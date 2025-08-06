@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>Studio Ghibli - Buscar Filme</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Filmes do Studio Ghibli</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="busca">
+            <h2>Buscar Filme</h2>
+            <form id="formulario-filme">
+                <input type="text" id="nome-filme" placeholder="Digite o nome do filme" required />
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+
+        <section id="resultado" class="resultado"></section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Studio Ghibli Fansite</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
